@@ -69,7 +69,7 @@ Methodology:
           amount_deviance_8: (amount_tod_max - amount)/amount_tod_max
           diffBalanceOrig: newBalanceOrig + amount - oldBalanceOrig
           diffBalanceDest: oldBalanceDest + amount - newBalanceDest
-           
-    C. Model Development
+         
+  C. Model Development
           
      
