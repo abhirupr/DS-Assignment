@@ -4,6 +4,7 @@ Link: https://www.kaggle.com/ntnu-testimon/paysim1
 Methodology:
 
   A. Exploratory Data Analysis: 01. Data Exploration.ipynb
+  
       Findings:
       1: Frauds are evenly distributed across weeks (Given that each Step as a hour, there is data of 31 days split into 4 sections of 186 hours. Each section is termed as a week)
       2: No missing value in the data
@@ -39,6 +40,7 @@ Methodology:
       9: Create categories of Old Balance Orig for CASH_OUT & TRANSFER type transactions [21]
       
   B. Feature Engineering for CASH_OUT & TRANSFER type transactions
+  
       1:  02.A. Data Exploration and Feature Engineering - Cash Out & Transfer.ipynb
           Feature: $ amount of tranaction and number of transaction done by a customer in last 186 hours
           Since the data had lot ~2.8 million rows it was taking sufficient amount of time to create the feature, so it was not added in model development
