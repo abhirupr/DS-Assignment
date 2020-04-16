@@ -97,7 +97,7 @@ Methodology:
     Optimum n_estimator=1296 (cross validation on 1300 estimators, scope to check by increasing n_estimator max limit)
     Since cross validation took sisgnificant amount of time and other hyperparameter tuning provides marginal gain, develop model keeping other hypermparameters constant
     learning_rate =0.05,
-    n_estimators=1300,
+    n_estimators=1296,
     max_depth=5,
     min_child_weight=1,
     gamma=0,
@@ -144,8 +144,8 @@ Methodology:
     Precision: 100.0
 
     OOT:
-                  Predicted
-                  0         1
+                Predicted
+                0         1
             0  [79582     0]
     Actual    
             1  [  527  1521]
@@ -157,7 +157,14 @@ Methodology:
     Precision: 100.0
     
     Model File: xgb_model_1.1
+    
   
-   
+2. 03.A.2 Model Development - Fraud During Transaction.ipynb
+
+    Increase the max threshold of n_estimatord for CV for better Test AUCPR. Optimum n_estimator=1986. No other change from previous model.
+    
+3. 03.B Model Development - Fraud After Transaction.ipynb
+
+    Included features diffBalanceOrig and diffBalanceDest in model development
           
      
