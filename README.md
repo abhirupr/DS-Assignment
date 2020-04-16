@@ -28,6 +28,7 @@ Methodology:
       19: All transactions with Amount==0 are Fraud
       20: Distinct difference in pattern of ZERO Origination and Destination Balance for Fraud and Non Fraud Transactions
       21: Old Balance Orig tend to be higher for Fraud than Non Fraud transactions. Customer with higher balances are usually targeted for Fraud
+      22: Only in one case, C1714931087 [step 65 and 546] is doing a CASH_OUT which is not tagged as Fraud after receiving a Fraud TRANSFER
       
       Actions based on the above findings:
       1: Take first Week 2 and 3 as Train and Week 4 as OOT Validation sample [Findings: 1]
